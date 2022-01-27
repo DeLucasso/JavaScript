@@ -6,20 +6,19 @@
 // 2. prompt for name 1
 // 3. print a random number in % from 1 to 100
 // 4. alert this number along with two names, how they match :) (show it to user)
-// if it's more than 30%, print alert in IF block, if under 30%, print alert under ELSE block
+// 5. score above 70 gets Like Crazy , between 30 AND 70 like a LOVER, all others the alert message is "it's questionable".
 
 var name1 = prompt("What's the first name of the couple?: ");
 var name2 = prompt("What's the second name of the couple?: ");
+var lovescore = Math.floor(Math.random() * 100 + 1);
 
-var lovescore = Math.random() * 100;
-lovescore = Math.floor(lovescore) +1;
-// we can shorten tho Same two lines to one line:
-// var lovescore = Math.floor(Math.random() * 100 + 1);
+if (lovescore > 70) {
+    alert ("Your love score is " + lovescore + "%. " + name1 + " loves " + name2 + " like CRAZY!!!");
+}  
 
-if (lovescore > 30 ) {
-alert ("Your love score is " + lovescore + ". " + name1 + "loves " + name2 + " like CRAZY!!!");
+if (lovescore >= 30 && lovescore < 70){
+    alert ("Your love score is " + lovescore + "%. " + name1 + " loves " + name2 + " like a Lover!!!");
+
 } else {
-    alert ("The Love Match between " + name1 + " and " + name2 + " is " + lovescore + "%");
+    alert ("Your love score is " + lovescore + "%. " + name1 + " loves " + name2 + " like a ..... Are you sure, you are still together???");
 }
-
-
