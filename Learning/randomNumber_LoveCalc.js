@@ -9,5 +9,10 @@
 
 var name1 = prompt("What's the first name of the couple?: ");
 var name2 = prompt("What's the second name of the couple?: ");
-var match = Math.floor(Math.random() * 101);
-alert ("The Love Match between " + name1 + " and " + name2 + " is " + match + "%");
+
+var lovescore = Math.random() * 100;
+lovescore = Math.floor(lovescore) +1;
+// we can shorten tho Same two lines to one line:
+// var lovescore = Math.floor(Math.random() * 100 + 1);
+
+alert ("The Love Match between " + name1 + " and " + name2 + " is " + lovescore + "%");
