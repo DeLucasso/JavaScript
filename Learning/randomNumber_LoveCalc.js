@@ -1,4 +1,7 @@
-// Love Calculator
+// JavaScript trainings with LuCaS, www.instagram.com/lukasnachtigall/
+// MIT License - Feel free to use and modify the code
+
+// Love Calculator with IF, ELSE
 // 1. prompt for name 1
 // 2. prompt for name 1
 // 3. print a random number in % from 1 to 100
