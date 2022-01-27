@@ -1,3 +1,6 @@
+// JavaScript training with LuCaS, www.instagram.com/lukasnachtigall/
+// (c) LuCaS 2022. MIT License - Feel free to use and modify the code
+
 // Getting a random number - it's in range 0 0.99999 and never one */
 // That's we multiply by 6 and round down to get 1-6 random whole number */
 // And we add +1 because we don't want to get zero as output */ 
