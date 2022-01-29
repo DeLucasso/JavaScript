@@ -28,11 +28,17 @@ document.querySelector("h1").innerHTML
 document.querySelector("h1").textContent
 // Output: 'Hello'
 
-// Manipulate STYLE and ATTRIBUTES html to the <H1>Hello</H1> with .textContent
+// Manipulate STYLE and ATTRIBUTE value to the <H1>Hello</H1> with .textContent
  document.querySelector("h1").innerHTML = "<em>Welcome</em>";
 '<em>Welcome!</em>'
 
-// Getting attributes from an anchor tag <a>
+// Getting an attributes from an anchor tag <a>
 document.querySelector("a").attributes;
 // Output:> NamedNodeMap {0: href, href: href, length: 1}
 
+// Getting a value of attribute "href"
+document.querySelector("a").getAttribute("href");
+// Output:> 'https://www.google.com'
+
+// Setting a value of attribute "href"
+document.querySelector("a").setAttribute("href","https://www.bing.com");
