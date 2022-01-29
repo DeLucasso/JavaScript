@@ -6,3 +6,14 @@
 
 var myChange = document.querySelector("body > ul > li:nth-child(3)");
 myChange.innerHTML = ("Wow, it really works folks!");
+
+
+// You can also use querySelectorAll and get an array of all "li" elements,
+// then you can target it with [n-th] index in array.
+
+document.querySelectorAll("li")[2];
+
+// You can store it to a variable and work with it.
+
+var myVariable = document.querySelectorAll("li")[2];
+myVariable.style.color = ("green");
