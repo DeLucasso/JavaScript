@@ -28,6 +28,6 @@ document.querySelector("h1").innerHTML
 document.querySelector("h1").textContent
 // Output: 'Hello'
 
-// Adding html to the <H1>Hello</H1> with .textContent
+// Manipulate STYLE and ATTRIBUTES html to the <H1>Hello</H1> with .textContent
  document.querySelector("h1").innerHTML = "<em>Welcome</em>";
 '<em>Welcome!</em>'
