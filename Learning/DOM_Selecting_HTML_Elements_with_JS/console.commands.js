@@ -17,3 +17,17 @@ document.querySelectorAll("li")[2];
 
 var myVariable = document.querySelectorAll("li")[2];
 myVariable.style.color = ("green");
+
+// Selecting the content between <H1> </H1> with
+// innerHTML will return everything inbetween
+
+document.querySelector("h1").innerHTML
+// Output: '<strong>Hello</strong>'
+
+// Selecting the content between <H1> </H1> with .textContent
+document.querySelector("h1").textContent
+// Output: 'Hello'
+
+// Adding html to the <H1>Hello</H1> with .textContent
+ document.querySelector("h1").innerHTML = "<em>Welcome</em>";
+'<em>Welcome!</em>'
