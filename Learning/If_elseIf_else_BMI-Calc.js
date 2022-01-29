@@ -1,7 +1,8 @@
-// JavaScript training with LuCaS, www.instagram.com/lukasnachtigall/
-// (c) LuCaS 2022. MIT License - Feel free to use and modify the code
+// JavaScript training with LuCaS, (c) LuCaS 2022
+// IG: @LukasNachtigall/ GitHub: github.com/DeLucasso
+// MIT License - Feel free to use and modify the code
 //
-// What does the code do?
+// What does this code do?
 // Calculates BMI and returns 3 different messages based on the <bmi> variable value
 
 function bmiCalculator (weight, height) {
