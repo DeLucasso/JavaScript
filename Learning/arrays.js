@@ -1,7 +1,9 @@
-// JavaScript training with LuCaS, www.instagram.com/lukasnachtigall/
-// (c) LuCaS 2022. MIT License - Feel free to use and modify the code
+// JavaScript training with LuCaS, (c) LuCaS 2022
+// IG: @LukasNachtigall/ GitHub: github.com/DeLucasso
+// YT: youtube.com/lukasnachtigall
+// MIT License - Feel free to use and modify the code
 //
-// What does the code do?
+// What does this code do?
 // Creates an array <viplist> and assigned a list of names to it
 // Asks for your name, then check with .includes() function if
 // does exist in <viplist> and accordingly alert the user.
