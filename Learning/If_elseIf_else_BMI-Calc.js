@@ -1,5 +1,6 @@
 // JavaScript training with LuCaS, (c) LuCaS 2022
 // IG: @LukasNachtigall/ GitHub: github.com/DeLucasso
+// YT: youtube.com/lukasnachtigall
 // MIT License - Feel free to use and modify the code
 //
 // What does this code do?
