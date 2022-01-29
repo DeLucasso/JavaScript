@@ -4,4 +4,7 @@ h1 {
 
 .huge {
   font-size: 10rem;
-}
+  color: hsl(150,50%,50%);
+  font-weight: bold;
+  font-style: italic;
+  }
