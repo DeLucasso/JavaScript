@@ -31,3 +31,8 @@ document.querySelector("h1").textContent
 // Manipulate STYLE and ATTRIBUTES html to the <H1>Hello</H1> with .textContent
  document.querySelector("h1").innerHTML = "<em>Welcome</em>";
 '<em>Welcome!</em>'
+
+// Getting attributes from an anchor tag <a>
+document.querySelector("a").attributes;
+// Output:> NamedNodeMap {0: href, href: href, length: 1}
+
