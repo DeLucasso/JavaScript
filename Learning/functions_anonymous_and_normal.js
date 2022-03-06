@@ -1,4 +1,4 @@
-// This is a normal function in JavaScript
+// This is a normal (named) function in JavaScript
 document.querySelector("button").addEventListener("click", clickAlert);
 
 function clickalert() {
