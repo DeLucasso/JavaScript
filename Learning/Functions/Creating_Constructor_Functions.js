@@ -8,3 +8,16 @@ function HouseKeeper (name, years, age) {
 
 // To initialize function :
 var houskeeper1 = new HouseKeeper ('Lukas, 25, 30');
+
+
+// Now extend the constructor function of a Method
+function HouseMaid (name, age, skills) {
+  this.name = name;
+  this.age = age;
+  this.skills = skills;
+  this.extraMethod = function () {
+    alert("Cleaning in progress...");
+    }
+}
+
+var houseMaid1 = new HouseMaid("Dean", 23, ["washing", "dusting", "vacuuming"])
