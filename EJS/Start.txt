@@ -4,3 +4,13 @@ https://ejs.co/
 // EJS for Express
 https://github.com/mde/ejs/wiki/Using-EJS-with-Express
 
+// Put to app.js
+app.set('view engine', 'ejs');
+
+// Create a folder views
+// Add a your_filename.ejs file
+// Add your HTML to your_filename.ejs
+
+// the MARKER for the EJS is "<%=  %>" eg.
+<h1> Today is a <%= your_object_or_variable %> and it's sunny</h1>
+  
