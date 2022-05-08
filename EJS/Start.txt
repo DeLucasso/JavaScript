@@ -1,0 +1,6 @@
+// EJS Manual
+https://ejs.co/
+
+// EJS for Express
+https://github.com/mde/ejs/wiki/Using-EJS-with-Express
+
